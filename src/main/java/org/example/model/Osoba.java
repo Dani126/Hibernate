@@ -1,4 +1,4 @@
-package org.example;
+package org.example.model;
 
 import org.example.converter.PohlavieConverter;
 import org.example.enumerators.Pohlavie;

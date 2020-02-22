@@ -1,21 +1,21 @@
 package org.example;
 
 import org.example.enumerators.Pohlavie;
-import org.example.model.Message;
+import org.example.model.Osoba;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import java.util.List;
 
-public class App 
+public class AppMSSQL
 {
     public static void main( String[] args )
     {
         EntityManagerFactory entityManagerFactory =
                 Persistence.createEntityManagerFactory("nazovPersistenceUnit");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
-        //vytvorenie entity managera, ktory je naviazany na nazov v persistence.xml
+        //vytvorenie entity managera, ktory je naviazany na nazov v persistenceMSSQL.xml
         //   pomocou persistanceUnitName
 
 //        ZAPIS DO DB
